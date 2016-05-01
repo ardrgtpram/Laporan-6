@@ -65,9 +65,10 @@ public class EmployeeMain {
                 } else {
                     System.out.println("Maaf anda tidak mendapat tunjangan istri maupun anak");
                 }
+                m.BonusTunjangan();
+                m.TunjanganManager();
                 m.GajitotalM();
                 break;
-                
         }     
     }
 }
